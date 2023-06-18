@@ -1,0 +1,17 @@
+#!/bin/bash
+NAMES=( John Eric Jessica )
+				# write your code here
+
+NUMBERS=("1 2 3")
+	echo $NUMBERS
+
+STRINGS=("hello world")
+	echo $STRINGS
+
+NumberOfNames=(${#NAMES[@]})
+
+second_name='Vladimir'
+NAME[3]="$second_name" 
+
+	echo "The number of names listed in the NAMES array: $NumberOfNames"
+	echo "The second name on the NAMES list is: ${NAMES[1]}"
